@@ -18,7 +18,7 @@ app.use(favicon(__path +'/views/favicon.ico'))
 app.use(express.static("public"))
 
 app.use('/', mainrouter);
-app.use('/api', apirouter);
+app.use('/search', apirouter);
 
 app.listen(PORT, () => {
     console.log(color("Server running on port " + PORT,'green'))
