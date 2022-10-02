@@ -1,36 +1,26 @@
 {
-  "name": "exalib",
-  "version": "1.1.0",
-  "description": "A Search Engine",
-  "main": "nodemon index.js",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LanzVian/Exalib.git"
-  },
-  "keywords": [
-    "lanzvian",
-    "api",
-    "web",
-    "search"
-  ],
-  "author": "Zhirrr",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LsnzVian/Exalib/issues"
-  },
+  "name": "tes-workshop",
+  "version": "0.1.0",
+  "private": false,
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "axios": "^0.21.1",
     "base-64": "^1.0.0",
     "base32": "0.0.6",
-    "chalk": "^5.0.1",
+    "chalk": "^4.1.0",
     "cheerio": "^1.0.0-rc.5",
     "child_process": "^1.0.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.2",
-    "emoji-api": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "emoji-api": "^1.0.2",
     "express": "^4.17.1",
     "fbdl-core": "^1.0.2",
     "form-data": "^4.0.0",
@@ -39,11 +29,11 @@
     "instatouch": "^2.3.3",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
-    "mongodb": "^4.9.1",
+    "mongodb": "^3.6.3",
     "monk": "^7.3.3",
     "morgan": "^1.10.0",
-    "needle": "^3.1.0",
-    "node-fetch": "^3.2.10",
+    "needle": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "nodemon": "^2.0.7",
     "request": "^2.88.2",
     "serve-favicon": "^2.5.0",
@@ -52,9 +42,30 @@
     "urlencode": "^1.1.0",
     "yt-search": "^2.7.6",
     "ytdl-core": "^4.5.0",
-    "zrapi": "0.0.6",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "zrapi": "0.0.6"
   },
-  "homepage": "https://github.com/LanzVian/Exalib#readme"
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
