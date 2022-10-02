@@ -1,6 +1,7 @@
 __path = process.cwd();
 var favicon = require('serve-favicon');
-var express = require('express'),
+var express = require('express');
+var path = require('path');
 const PORT = process.env.PORT || 8080 || 5000 || 3000
 var { color } = require('./lib/color.js')
 
